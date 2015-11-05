@@ -602,6 +602,12 @@
     jose_blurb: "Taking Off"
     retrostyle_title: "Illustration"
     retrostyle_blurb: "RetroStyle Games"
+    rob_title: "Compiler Engineer"
+    rob_blurb: "Codes things and stuff"
+    josh_c_title: "Game Designer"
+    josh_c_blurb: "Designs games"
+    carlos_title: "Region Manager"
+    carlos_blurb: "CodeCombat Brazil"
 
   teachers:
     more_info: "More Info for Teachers"
@@ -793,7 +799,7 @@
     social_facebook: "Like CodeCombat on Facebook"
     social_twitter: "Follow CodeCombat on Twitter"
     social_gplus: "Join CodeCombat on Google+"
-    social_hipchat: "Chat with us in the public CodeCombat HipChat room"
+    social_hipchat: "Chat with us in the public CodeCombat Slack channel"
     contribute_to_the_project: "Contribute to the project"
 
   clans:
@@ -1073,7 +1079,7 @@
     join_desc_3: ", or find us in our "
     join_desc_4: "and we'll go from there!"
     join_url_email: "Email us"
-    join_url_hipchat: "public HipChat room"
+    join_url_hipchat: "public Slack channel"
     archmage_subscribe_desc: "Get emails on new coding opportunities and announcements."
     artisan_introduction_pref: "We must construct additional levels! People be clamoring for more content, and we can only build so many ourselves. Right now your workstation is level one; our level editor is barely usable even by its creators, so be wary. If you have visions of campaigns spanning for-loops to"
     artisan_introduction_suf: ", then this class might be for you."
@@ -1083,7 +1089,7 @@
     artisan_join_desc: "Use the Level Editor in these steps, give or take:"
     artisan_join_step1: "Read the documentation."
     artisan_join_step2: "Create a new level and explore existing levels."
-    artisan_join_step3: "Find us in our public HipChat room for help."
+    artisan_join_step3: "Find us in our public Slack channel for help."
     artisan_join_step4: "Post your levels on the forum for feedback."
     artisan_subscribe_desc: "Get emails on level editor updates and announcements."
     adventurer_introduction: "Let's be clear about your role: you are the tank. You're going to take heavy damage. We need people to try out brand-new levels and help identify how to make things better. The pain will be enormous; making good games is a long process and no one gets it right the first time. If you can endure and have a high constitution score, then this class might be for you."
@@ -1268,7 +1274,7 @@
     months: "Months"
     purchase_total: "Total"
     purchase_button: "Submit Purchase"
-    your_codes: "Your Codes" # {change}
+    your_codes: "Your Codes"
     redeem_codes: "Redeem a Subscription Code"
     prepaid_code: "Prepaid Code"
     lookup_code: "Lookup prepaid code"
@@ -1277,6 +1283,9 @@
     quantity: "Quantity"
     redeemed: "Redeemed"
     no_codes: "No codes yet!"
+    you_can1: "You can"
+    you_can2: "purchase a prepaid code"
+    you_can3: "that can be applied to your own account or given to others."
 
   loading_error:
     could_not_load: "Error loading from server"

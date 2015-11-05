@@ -603,7 +603,7 @@ module.exports = nativeDescription: "吳語", englishDescription: "Wuu (Traditio
 #    retrostyle_blurb: "RetroStyle Games"
 
 #  teachers:
-#    title: "CodeCombat: Info for Teachers"
+#    more_info: "More Info for Teachers"
 #    intro_1: "CodeCombat is an online game that teaches programming. Students write code in real programming languages."
 #    intro_2: "No experience required!"
 #    free_title: "How much does it cost?"
@@ -792,7 +792,7 @@ module.exports = nativeDescription: "吳語", englishDescription: "Wuu (Traditio
 #    social_facebook: "Like CodeCombat on Facebook"
 #    social_twitter: "Follow CodeCombat on Twitter"
 #    social_gplus: "Join CodeCombat on Google+"
-#    social_hipchat: "Chat with us in the public CodeCombat HipChat room"
+#    social_hipchat: "Chat with us in the public CodeCombat Slack channel"
 #    contribute_to_the_project: "Contribute to the project"
 
 #  clans:
@@ -839,6 +839,19 @@ module.exports = nativeDescription: "吳語", englishDescription: "Wuu (Traditio
 #    playtime: "Playtime"
 #    last_played: "Last played"
 #    leagues_explanation: "Play in a league against other clan members in these multiplayer arena instances."
+#    track_concepts1: "Track concepts"
+#    track_concepts2a: "learned by each student"
+#    track_concepts2b: "learned by each member"
+#    track_concepts3a: "Track levels completed for each student"
+#    track_concepts3b: "Track levels completed for each member"
+#    track_concepts4a: "See your students'"
+#    track_concepts4b: "See your members'"
+#    track_concepts5: "solutions"
+#    track_concepts6a: "Sort students by name or progress"
+#    track_concepts6b: "Sort members by name or progress"
+#    track_concepts7: "Requires invitation"
+#    track_concepts8: "to join"
+#    private_require_sub: "Private clans require a subscription to create or join."
 
 #  courses:
 #    course: "Course"
@@ -1059,7 +1072,7 @@ module.exports = nativeDescription: "吳語", englishDescription: "Wuu (Traditio
     join_desc_3: " 要勿到我裏個"
     join_desc_4: "，嚇我裏有較慢慢講！"
     join_url_email: "發信畀我裏"
-    join_url_hipchat: " HipChat 白嗒間"
+    join_url_hipchat: " Slack 白嗒間"
     archmage_subscribe_desc: "用電子郵箱收新個編碼機會搭公告。"
 #    artisan_introduction_pref: "We must construct additional levels! People be clamoring for more content, and we can only build so many ourselves. Right now your workstation is level one; our level editor is barely usable even by its creators, so be wary. If you have visions of campaigns spanning for-loops to"
 #    artisan_introduction_suf: ", then this class might be for you."
@@ -1069,7 +1082,7 @@ module.exports = nativeDescription: "吳語", englishDescription: "Wuu (Traditio
 #    artisan_join_desc: "Use the Level Editor in these steps, give or take:"
     artisan_join_step1: "獨文檔。"
     artisan_join_step2: "做新關 搭打有個關數。"
-    artisan_join_step3: "趒我裏個 HipChat 白嗒間來尋幫手。"
+    artisan_join_step3: "趒我裏個 Slack 白嗒間來尋幫手。"
     artisan_join_step4: "畀爾個關發論壇讓別人畀爾評評。"
     artisan_subscribe_desc: "用電子郵箱收關編寫器個新消息。"
 #    adventurer_introduction: "Let's be clear about your role: you are the tank. You're going to take heavy damage. We need people to try out brand-new levels and help identify how to make things better. The pain will be enormous; making good games is a long process and no one gets it right the first time. If you can endure and have a high constitution score, then this class might be for you."
@@ -1214,7 +1227,6 @@ module.exports = nativeDescription: "吳語", englishDescription: "Wuu (Traditio
 #    recently_played: "Recently Played"
 #    no_recent_games: "No games played during the past two weeks."
 #    payments: "Payments"
-#    prepaid: "Prepaid"
 #    prepaid_codes: "Prepaid Codes"
 #    purchased: "Purchased"
 #    sale: "Sale"
@@ -1248,11 +1260,22 @@ module.exports = nativeDescription: "吳語", englishDescription: "Wuu (Traditio
 
 #  account_prepaid:
 #    purchase_code: "Purchase a Subscription Code"
-#    purchase_amount: "Amount"
+#    purchase_code1: "Subscription Codes can be redeemed to add premium subscription time to one or more CodeCombat accounts."
+#    purchase_code2: "Each CodeCombat account can only redeem a particular Subscription Code once."
+#    purchase_code3: "Subscription Code months will be added to the end of any existing subscription on the account."
+#    users: "Users"
+#    months: "Months"
 #    purchase_total: "Total"
 #    purchase_button: "Submit Purchase"
-#    your_codes: "Your Codes:"
+#    your_codes: "Your Codes"
 #    redeem_codes: "Redeem a Subscription Code"
+#    prepaid_code: "Prepaid Code"
+#    lookup_code: "Lookup prepaid code"
+#    apply_account: "Apply to your account"
+#    copy_link: "You can copy the code's link and send it to someone."
+#    quantity: "Quantity"
+#    redeemed: "Redeemed"
+#    no_codes: "No codes yet!"
 
   loading_error:
     could_not_load: "讀取失敗"
