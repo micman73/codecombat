@@ -19,7 +19,7 @@ module.exports = nativeDescription: "Ελληνικά", englishDescription: "Gre
   nav:
     play: "Επίπεδα" # The top nav bar entry where players choose which levels to play
     community: "Κοινότητα"
-#    courses: "Courses"
+    courses: "Μαθήματα"
     editor: "Συγγραφέας"
     blog: "Ιστολόγιο"
     forum: "Φόρουμ"
@@ -54,7 +54,7 @@ module.exports = nativeDescription: "Ελληνικά", englishDescription: "Gre
 
   play:
     play_as: "Παίξτε ως" # Ladder page
-#    compete: "Compete!" # Course details page
+    compete: "Διαγωνίσου!" # Course details page
     spectate: "Θεατής" # Ladder page
     players: "παίκτες" # Hover over a level on /play
     hours_played: "ώρες παιχνιδιού" # Hover over a level on /play
@@ -65,7 +65,7 @@ module.exports = nativeDescription: "Ελληνικά", englishDescription: "Gre
     locked: "Κλειδωμένο"
     purchasable: "Διαθέσιμο για αγορά" # For a hero you unlocked but haven't purchased
     available: "Διαθέσιμο"
-#    skills_granted: "Skills Granted" # Property documentation details
+    skills_granted: "Παρεχόμενες ικανότητες" # Property documentation details
     heroes: "Ήρωες" # Tooltip on hero shop button from /play
     achievements: "Επιτεύγματα" # Tooltip on achievement list button from /play
     account: "Λογαριασμός" # Tooltip on account button from /play
@@ -187,7 +187,7 @@ module.exports = nativeDescription: "Ελληνικά", englishDescription: "Gre
     password: "Κωδικός"
     message: "Μήνυμα"
     code: "Κώδικας"
-#    ladder: "Ladder"
+    ladder: "Αρένα"
     when: "Όταν"
     opponent: "Αντίπαλος"
     rank: "Κατηγορία"
@@ -221,10 +221,10 @@ module.exports = nativeDescription: "Ελληνικά", englishDescription: "Gre
     years: "χρόνια"
 
   play_level:
-#    completed_level: "Completed Level:"
-#    course: "Course:"
+    completed_level: "Ολοκληρωμένο Επίπεδο:"
+    course: "Μάθημα:"
     done: "Έτοιμο"
-#    next_level: "Next Level:"
+    next_level: "Επομένο Επίπεδο:"
     next_game: "Επόμενο παιχνίδι"
     show_menu: "Εμφάνιση μενού παιχνιδιού"
     home: "Αρχική" # Not used any more, will be removed soon.
@@ -254,7 +254,7 @@ module.exports = nativeDescription: "Ελληνικά", englishDescription: "Gre
     victory_sign_up: "Εγγράψου για ενημερώσεις"
     victory_sign_up_poke: "Θέλεις να λαμβάνεις τα τελευταία νέα μέσω e-mail; Δημιούργησε έναν δωρεάν λογαριασμό και θα σε κρατάμε ενήμερο!"
     victory_rate_the_level: "Βαθμολογήστε το επίπεδο: " # {change}
-    victory_return_to_ladder: "Επιστροφή στη Σκάλα"
+    victory_return_to_ladder: "Επιστροφή στη κατατάξη"
     victory_play_continue: "Συνέχισε"
     victory_saving_progress: "Αποθήκευση προόδου"
     victory_go_home: "Πήγαινε στην Αρχική"
@@ -369,7 +369,7 @@ module.exports = nativeDescription: "Ελληνικά", englishDescription: "Gre
     auth_caption: "Αποθήκευσε την πρόοδό σου."
 
   leaderboard:
-    view_other_solutions: "Προβολή Πίνακα Πρωτοπόρων"
+    view_other_solutions: "Πίνακας Πρωτοπόρων"
     scores: "Σκορ"
     top_players: "Κορυφαίοι Παίκτες Κατά"
     day: "Ημέρα"
@@ -377,7 +377,7 @@ module.exports = nativeDescription: "Ελληνικά", englishDescription: "Gre
     all: "Παντοτινά"
     time: "Χρόνος"
     damage_taken: "Ζημιά που δέχθηκες"
-    damage_dealt: "Ζημιά που αντιμετώπησες"
+    damage_dealt: "Ζημιά που κατάφερες"
     difficulty: "δυσκολία"
     gold_collected: "Χρυσός που μαζεύτηκε"
 
@@ -621,10 +621,10 @@ module.exports = nativeDescription: "Ελληνικά", englishDescription: "Gre
     cost_premium_server: "Το CodeCombat είναι δωρεάν για τα πέντε πρώτα επίπεδα, μετά τα οποία κοστίζει $9.99 Δολλάρια ΗΠΑ το μήνα για να έχετε πρόσβαση στα πάνω από 190 επίπεδα στους αποκλειστικούς για τη χώρα εξυπηρετητές."
     free_1: "Υπάρχουν πάνω από 100 ΔΩΡΕΑΝ επίπεδα που καλύπτουν όλα τα αντικείμενα."
     free_2: "Η μηνιαία συνδρομή παρέχει πρόσβαση σε βίντεο βοηθήματα και παραπάνω επίπεδα για εξάσκηση."
-#    free_3: "The CodeCombat content is divided into"
-#    free_4: "courses"
-#    free_5: ".  The first course is free, and about an hour of material."
-#    free_6: "Access to the additional courses can be unlocked with a one-time purchase."
+    free_3: "To περιεχόμενο του  CodeCombat χωρίζεται σε"
+    free_4: "μαθήματα"
+    free_5: " Η πρώτη σειρά μαθημάτων είναι δωρεάν και περιέχει περίπου μία ώρα υλικού."
+    free_6: "Πρόσβαση σε πρόσθετα μαθήματα παρέχετε με αγορά συνδρομής."
     teacher_subs_title: "Οι εκπαιδευτικοί παίρνουν δωρεάν συνδρομές!" # {change}
     teacher_subs_0: "Προσφέρουμε δωρεάν συνδρομές σε εκπαιδευτικούς για να μπορέσουν να αξιολογήσουν το παιχνίδι." # {change}
     teacher_subs_1: "παρακαλούμε συμπληρώστε το"
@@ -678,15 +678,15 @@ module.exports = nativeDescription: "Ελληνικά", englishDescription: "Gre
     approved_1: "Η αίτησή σας για δωρεάν δοκιμαστική συνδρομή" # {change}
     approved_2: "εγκρίθηκε."
     approved_3: "Σας στείλαμε περισσότερες οδηγίες στο"
-#    approved_4: "Enroll your students on the"
-#    approved_5: "courses"
-#    approved_6: "page."
+    approved_4: "Γράψε τους μάθητες σου στη"
+    approved_5: "σειρά μαθημάτων"
+    approved_6: "σελίδα."
     denied_1: "Η αίτησή σας για δωρεάν δοκιμαστική συνδρομή" # {change}
     denied_2: "απορίφθηκε."
     contact_1: "Παρακαλούμε επικοινωνείστε"
     contact_2: "αν έχετε περαιτέρω ερωτήσεις."
     description_1: "Δίνουμε δωρεάν συνδρομές σε εκπαιδευτικούς για να αξιολογήσουν το παιχνίδι. Μπορείτε να βρείτε περισσότερες πληροφορίες στις" # {change}
-#    description_1b: "You can find more information on our"
+    description_1b: "Μπορείς να βρείς περισσότερες πληροφορίες στην"
     description_2: "εκπαιδευτική"
     description_3: "σελίδα."
     description_4: "Παρακαλούμε, συμπληρώστε αυτή τη φόρμα και θα σας στείλουμε οδηγίες."
@@ -740,8 +740,8 @@ module.exports = nativeDescription: "Ελληνικά", englishDescription: "Gre
     wrong_password: "Λάθος Κωδικός"
     upload_picture: "Ανέβασμα φωτογραφίας"
     delete_this_account: "Μόνιμη διαγραφή λογαριασμού"
-#    reset_progress_tab: "Reset All Progress"
-#    reset_your_progress: "Clear all your progress and start over"
+    reset_progress_tab: "Διαγραφή Πρόοδου"
+    reset_your_progress: "Διαγραφή όλης της προόδου σου και ξανά από την αρχή"
     god_mode: "Κατάσταση Θεού!"
     password_tab: "Κωδικός"
     emails_tab: "Emails"
@@ -749,7 +749,7 @@ module.exports = nativeDescription: "Ελληνικά", englishDescription: "Gre
     new_password: "Καινούργιος Κωδικός"
     new_password_verify: " Επαλήθευση  Κωδικού"
     type_in_email: "Γράψτε τη διεύθυνση ηλεκτρονικού ταχυδρομείου σας για να επιβεβαιώσετε τη διαγραφή του λογαριασμού."
-#    type_in_email_progress: "Type in your email to confirm deleting your progress."
+    type_in_email_progress: "Πληκτρολογήστε το email σας για να επιβεβαιώσετε τη διαγραφή της πρόοδου σας."
     type_in_password: "Επίσης, γράψτε τον κωδικό σας."
     email_subscriptions: "Συνδρομές ηλεκτρονικού ταχυδρομείου"
     email_subscriptions_none: "Δεν υπάρχουν συνδρομές ηλεκτρονικού ταχυδρομείου."
@@ -1287,9 +1287,9 @@ module.exports = nativeDescription: "Ελληνικά", englishDescription: "Gre
     quantity: "Ποσότητα"
     redeemed: "Εξαγοράστηκε"
     no_codes: "No codes yet!"
-#    you_can1: "You can"
-#    you_can2: "purchase a prepaid code"
-#    you_can3: "that can be applied to your own account or given to others."
+    you_can1: "Μπορείς"
+    you_can2: "να αγοράσεις ένα προπληρωμένο κωδικό"  
+    you_can3: "που μπορεί να χρησιμοοποιηθεί στο λογαριασμό σας ή να δοθεί σε άλλους."
 
   loading_error:
     could_not_load: "Σφάλμα φόρτωσης από τον εξυπηρετητή"
@@ -1458,9 +1458,9 @@ module.exports = nativeDescription: "Ελληνικά", englishDescription: "Gre
 
   ladder_prizes:
     title: "Βραβεία Τουρνουά" # This section was for an old tournament and doesn't need new translations now.
-#    blurb_1: "These prizes will be awarded according to"
-#    blurb_2: "the tournament rules"
-#    blurb_3: "to the top human and ogre players."
+    blurb_1: "Τα βραβεία θα δοθούν σύμφωνα με τους"
+    blurb_2: "κανόνες του τουρνουά"
+    blurb_3: "στους πρώτους παίχτες των άνθρωπων και των ogres."
     blurb_4: "Δύο ομάδες σημαίνει διπλά βραβεία!"
     blurb_5: "(Θα υπάρχουν δύο 1οι νικητές, δύο δεύτεροι νικητές, κλπ.)"
     rank: "Θέση"
@@ -1487,8 +1487,8 @@ module.exports = nativeDescription: "Ελληνικά", englishDescription: "Gre
     looking_for: "Αναζήτηση για:"
     last_updated: "Τελευταία ενημερώθηκε:"
     contact: "Επικοινωνία"
-#    active: "Looking for interview offers now"
-#    inactive: "Not looking for offers right now"
+    active: "Ενδιαφέρομαι για προσφορές συνέντευξης"
+    inactive: "Δεν ενδιαφέρομαι για προσφορές αυτή τη στιγμή"
     complete: "Ολοκληρωμένο"
     next: "Επόμενο"
     next_city: "πόλη;"
