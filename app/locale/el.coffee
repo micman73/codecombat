@@ -65,7 +65,7 @@ module.exports = nativeDescription: "Ελληνικά", englishDescription: "Gre
     locked: "Κλειδωμένο"
     purchasable: "Διαθέσιμο για αγορά" # For a hero you unlocked but haven't purchased
     available: "Διαθέσιμο"
-#    skills_granted: "Skills Granted" # Property documentation details
+    skills_granted: "Παρεχόμενες Ικανότητες" # Property documentation details
     heroes: "Ήρωες" # Tooltip on hero shop button from /play
     achievements: "Επιτεύγματα" # Tooltip on achievement list button from /play
     account: "Λογαριασμός" # Tooltip on account button from /play
@@ -224,7 +224,7 @@ module.exports = nativeDescription: "Ελληνικά", englishDescription: "Gre
 #    completed_level: "Completed Level:"
 #    course: "Course:"
     done: "Έτοιμο"
-#    next_level: "Next Level:"
+    next_level: "Επομένο Επίπεδο:"
     next_game: "Επόμενο παιχνίδι"
     show_menu: "Εμφάνιση μενού παιχνιδιού"
     home: "Αρχική" # Not used any more, will be removed soon.
